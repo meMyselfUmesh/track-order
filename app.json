@@ -1,0 +1,211 @@
+{
+  "addons": [
+    "herokuconnect",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "env": {
+    "ADOBE_ANALYTICS_URL": {
+      "required": true
+    },
+    "API_URL_COMMISSIONSEARCH": {
+      "required": true
+    },
+    "API_URL_GETACTIVEBROCHURES": {
+      "required": true
+    },
+    "API_URL_GETDEALERDETAILS": {
+      "required": true
+    },
+    "API_URL_GETPREBOOKEDTIMESLOT": {
+      "required": true
+    },
+    "API_URL_ISPILOTDEALER": {
+      "required": true
+    },
+    "API_URL_LOCALITYSEARCH": {
+      "required": true
+    },
+    "API_URL_PMA": {
+      "required": true
+    },
+    "APP_DEBUG": {
+      "required": true
+    },
+    "APP_ENV": {
+      "required": true
+    },
+    "APP_KEY": {
+      "required": true
+    },
+    "APP_LOG_LEVEL": {
+      "required": true
+    },
+    "APP_URL": {
+      "required": true
+    },
+    "BROADCAST_DRIVER": {
+      "required": true
+    },
+    "CACHE_DRIVER": {
+      "required": true
+    },
+    "DOCUSIGN_AUTH_METHOD": {
+      "required": true
+    },
+    "DOCUSIGN_HOST": {
+      "required": true
+    },
+    "DOCUSIGN_INTEGRATOR_KEY": {
+      "required": true
+    },
+    "DOCUSIGN_PASSWORD": {
+      "required": true
+    },
+    "DOCUSIGN_USERNAME": {
+      "required": true
+    },
+    "EMAIL_VALIDATION_CACHE_ENABLED": {
+      "required": true
+    },
+    "EMAIL_VALIDATION_CACHE_INTERVAL": {
+      "required": true
+    },
+    "HEROKU_POSTGRESQL_YELLOW_URL": {
+      "required": true
+    },
+    "LOG_CHANNEL": {
+      "required": true
+    },
+    "MAIL_DRIVER": {
+      "required": true
+    },
+    "MAIL_ENCRYPTION": {
+      "required": true
+    },
+    "MAIL_HOST": {
+      "required": true
+    },
+    "MAIL_PASSWORD": {
+      "required": true
+    },
+    "MAIL_PORT": {
+      "required": true
+    },
+    "MAIL_USERNAME": {
+      "required": true
+    },
+    "MULE_API_PASSWORD": {
+      "required": true
+    },
+    "MULE_API_URL_COMMISSIONSEARCH": {
+      "required": true
+    },
+    "MULE_API_URL_CREATE_LEAD": {
+      "required": true
+    },
+    "MULE_API_URL_LOCALITYSEARCH": {
+      "required": true
+    },
+    "MULE_API_USERNAME": {
+      "required": true
+    },
+    "MULE_EMAIL_VALIDATION_URL": {
+      "required": true
+    },
+    "MULE_VIN_VALIDATION_PASSWORD": {
+      "required": true
+    },
+    "MULE_VIN_VALIDATION_URL": {
+      "required": true
+    },
+    "MULE_VIN_VALIDATION_USERNAME": {
+      "required": true
+    },
+    "QUEUE_DRIVER": {
+      "required": true
+    },
+    "SESSION_DRIVER": {
+      "required": true
+    },
+    "SFDC_CLIENT_ID": {
+      "required": true
+    },
+    "SFDC_CLIENT_SECRET": {
+      "required": true
+    },
+    "SFDC_GETACTIVEBROCHURES_URL": {
+      "required": true
+    },
+    "SFDC_GETATTACHMENT_URL": {
+      "required": true
+    },
+    "SFDC_GETDEALERDETAILS_URL": {
+      "required": true
+    },
+    "SFDC_GETPREBOOKEDTIMESLOT_URL": {
+      "required": true
+    },
+    "SFDC_ISPILOTDEALER_URL": {
+      "required": true
+    },
+    "SFDC_LOCALITYSEARCH_URL": {
+      "required": true
+    },
+    "SFDC_OAUTH_URL": {
+      "required": true
+    },
+    "SFDC_PASSWORD": {
+      "required": true
+    },
+    "SFDC_PMA_URL": {
+      "required": true
+    },
+    "SFDC_SAVEATTACHMENT_URL": {
+      "required": true
+    },
+    "SFDC_SECRET": {
+      "required": true
+    },
+    "SFDC_USERNAME": {
+      "required": true
+    },
+    "SITE_MAINTENANCEMODE": {
+      "required": true
+    },
+    "SKODA_MULE_CLIENT_ID": {
+      "required": true
+    },
+    "SKODA_MULE_CLIENT_SECRET": {
+      "required": true
+    },
+    "TZ": {
+      "required": true
+    },
+    "VW_MULE_CLIENT_ID": {
+      "required": true
+    },
+    "VW_MULE_CLIENT_SECRET": {
+      "required": true
+    },
+    "WORKER_LEAD_RETRY_COUNT": {
+      "required": true
+    },
+    "WORKER_LEAD_RETRY_TIME_INTERVAL_MINUTE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "track-order",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
